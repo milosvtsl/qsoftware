@@ -1,0 +1,13 @@
+
+triangle:
+    path: /triangle/{a}/{b}/{c} 
+    controller: App\Controller\MainController::triangle
+    methods: GET|HEAD
+circle:
+    path: /circle/{r}
+    controller: App\Controller\MainController::circle
+    methods: GET|HEAD
+test:
+    path: /test
+    controller: App\Controller\MainController::test
+    methods: GET|HEAD
